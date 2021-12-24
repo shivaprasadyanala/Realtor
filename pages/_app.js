@@ -5,7 +5,7 @@ import NProgress from 'nprogress'
 import { ChakraProvider } from '@chakra-ui/react'
 
 import Layout from '../components/Layout'
-import router from 'next/router'
+// import router from 'next/router'
 
 function MyApp({ Component, pageProps }) {
     NProgress.configure({ showSpinner: false })
