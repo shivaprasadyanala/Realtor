@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Flex, Select, Box, Text, Spinner, Button, Item } from '@chakra-ui/react'
 import { useRouter } from "next/router";
-import { MdCancel } from 'react-icons/md'
+// import { MdCancel } from 'react-icons/md'
 import { filterData, getFilterValues } from '../utils/filterData'
 
 const SearchFilters = () => {
